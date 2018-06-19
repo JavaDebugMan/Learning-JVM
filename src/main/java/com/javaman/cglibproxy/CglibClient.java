@@ -17,7 +17,7 @@ package com.javaman.cglibproxy;
  * <p>
  * <JDK动态代理与CGLib动态代理均是实现Spring AOP的基础>
  * <p>
- * 3、使用：
+ * 3、使用:
  * <p>
  * 使用Cglib前需要导入以下两个jar文件：
  * asm.jar – Cglib的底层实现。

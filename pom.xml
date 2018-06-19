@@ -14,6 +14,12 @@
             <artifactId>cglib</artifactId>
             <version>3.2.6</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>5.0.6.RELEASE</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
