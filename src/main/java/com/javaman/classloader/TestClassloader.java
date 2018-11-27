@@ -21,8 +21,8 @@ public class TestClassloader {
         System.out.println(instance);
 
         Method welcome = aClass.getMethod("welcome");
-        Object invoke = welcome.invoke(instance);
-        System.out.println("Result"+instance);
+        String invoke = (String)welcome.invoke(instance);
+        System.out.println("Result---》"+invoke);
 
     }
 }
