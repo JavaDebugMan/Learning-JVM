@@ -27,5 +27,9 @@ public class StringTest {
         System.out.println(s.equals(s1));
 
         System.out.println(s==s1);
+
+        while (true) {
+            System.out.println("666666666");
+        }
     }
 }

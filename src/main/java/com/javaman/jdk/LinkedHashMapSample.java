@@ -1,24 +1,29 @@
+/*
 package com.javaman.jdk;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+*/
 /**
  * @author pengzhe
  * @date 2018/6/1 17:19
  * @description
- */
+ *//*
+
 
 public class LinkedHashMapSample {
 
     public static void main(String[] args) {
         LinkedHashMap<String, String> accessOrderedMap =
                 new LinkedHashMap<String, String>(16, 0.75F, true) {
-                    /**
+                    */
+/**
                      *实现自定义删除策略,否则行为就和普通Map没什么区别
                      * @param eldest
                      * @return
-                     */
+                     *//*
+
                     @Override
                     protected boolean removeEldestEntry(Map.Entry<String, String> eldest) {
                         return size() > 3;
@@ -50,3 +55,4 @@ public class LinkedHashMapSample {
 
     }
 }
+*/

@@ -13,7 +13,7 @@ public class TestClassloader {
 
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
 
-        MyClassLoader myClassLoader = new MyClassLoader();
+      /*  MyClassLoader myClassLoader = new MyClassLoader();
         Class<?> aClass = myClassLoader.loadClass("com.javaman.classloader.HelloWorld");
         System.out.println(aClass.getClassLoader());
 
@@ -22,7 +22,13 @@ public class TestClassloader {
 
         Method welcome = aClass.getMethod("welcome");
         String invoke = (String)welcome.invoke(instance);
-        System.out.println("Result---》"+invoke);
+        System.out.println("Result---》"+invoke);*/
+        System.out.println(Thread.currentThread().getContextClassLoader());
+
+
+
+
+
 
     }
 }
