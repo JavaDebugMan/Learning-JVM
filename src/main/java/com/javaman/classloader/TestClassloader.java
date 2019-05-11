@@ -1,7 +1,6 @@
 package com.javaman.classloader;
 
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 /**
  * @author pengzhe
