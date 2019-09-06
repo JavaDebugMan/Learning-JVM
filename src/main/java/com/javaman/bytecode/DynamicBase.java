@@ -22,7 +22,7 @@ public class DynamicBase {
         }
     }
 
-    public static void process() {
+    private static void process() {
         System.out.println("process");
     }
 }
