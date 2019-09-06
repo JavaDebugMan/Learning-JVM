@@ -14,7 +14,7 @@ import org.objectweb.asm.ClassWriter;
 public class Generator {
     public static void main(String[] args) throws Exception {
         //读取
-        ClassReader classReader = new ClassReader("com.javaman.bytecode.asm.Base");
+        ClassReader classReader = new ClassReader("com.javaman.bytecode.Base");
         ClassWriter classWriter = new ClassWriter(ClassWriter.COMPUTE_MAXS);
         //处理
         ClassVisitor classVisitor = new MyClassVisitor(classWriter);

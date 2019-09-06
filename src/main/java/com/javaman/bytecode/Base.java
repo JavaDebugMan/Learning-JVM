@@ -1,4 +1,4 @@
-package com.javaman.bytecode.asm;
+package com.javaman.bytecode;
 
 /**
  * @author pengzhe
