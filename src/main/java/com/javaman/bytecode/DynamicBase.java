@@ -14,7 +14,7 @@ public class DynamicBase {
         System.out.println("pid:" + s);
         while (true) {
             try {
-                Thread.sleep(5000L);
+                Thread.sleep(1000L);
             } catch (Exception e) {
                 break;
             }

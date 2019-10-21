@@ -6,4 +6,8 @@ package com.javaman.classloader;
  */
 public class JvmClass {
     public static int example = 0;
+
+    public static void main(String[] args) {
+        System.out.println(ClassLoader.getSystemClassLoader().toString());
+    }
 }
